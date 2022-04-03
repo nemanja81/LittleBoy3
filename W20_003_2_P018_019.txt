@@ -20,6 +20,7 @@
  STR B8 V1 B1;
  END;
  Comment: i don't delete this;
+ Comment: this is another comment ;
  INS 0 3;
  SET P10;
  ENV P5 F2 B3 P7 P8 P9 P30;
@@ -51,14 +52,18 @@
  INS 0 7;
  MLT B7 V1 B7;
  END;
+
  INS 0 8;
  MLT B8 V1 B8;END;
  INS 0 9;
  MLT B9 V1 B9;
  END;
+ COMMENT: RVN THIS WAS WRONG I CHANGED TO B11;
+
  INS 0 10;
- MLT B10 V1 B10;
+ MLT B10 V1 B11;
  END;
+
  INS 0 11;
  MLT B11 V1 B11;
  END;
